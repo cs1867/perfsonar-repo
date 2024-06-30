@@ -20,6 +20,7 @@ jobs:
     runs-on: ubuntu-latest
      
     steps:
+    
       - name: Capture start date and time
         id: start_time
         run: echo "start_time=$(date -u)" >> $GITHUB_ENV
